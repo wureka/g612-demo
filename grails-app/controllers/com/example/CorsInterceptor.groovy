@@ -11,7 +11,7 @@ class CorsInterceptor {
             true }
 
       boolean after() {
-            response.addHeader("MyRespHeader","application/json;charset=utf-8")
+            response.setHeader("MyRespHeader","My dream data here")
             // response.addHeader("Content-Type","application/json;charset=utf-8")
             log.info("after(): final")
             true
@@ -19,7 +19,7 @@ class CorsInterceptor {
 
       void afterView() {
             log.info("afterView(): BEGIN ...")
-            response.setHeader("MyRespHeader","application/json;charset=utf-8")
+            response.setHeader("MyRespHeader","My dream data here")
         // no-op
       }
 
