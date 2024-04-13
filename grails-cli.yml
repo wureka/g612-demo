@@ -1,0 +1,8 @@
+applicationType: rest_api
+defaultPackage: com.example
+testFramework: spock
+sourceLanguage: groovy
+buildTool: gradle
+gormImpl: gorm-hibernate5
+servletImpl: spring-boot-starter-jetty
+features: [app-name, base, gorm-hibernate5, gradle, grails-application, grails-console, grails-dependencies, grails-gorm-testing-support, grails-gradle-plugin, grails-url-mappings, grails-web, grails-web-console, h2, logback, micronaut-inject-groovy, readme, shade, spock, spring-boot-autoconfigure, spring-boot-starter, spring-boot-starter-jetty, views-json, views-json-testing-support, yaml]
